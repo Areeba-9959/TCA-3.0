@@ -1,0 +1,134 @@
+.heading {
+    background-image: url('https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+.header1{
+   resize: horizontal;
+   height: : 300px;
+  background-image:url('https://wallpaperaccess.com/full/1556608.jpg');
+  background-size: auto 50%;
+ border-color: #FFFFFF;
+ border-width:10px;
+  position:relative;
+
+}
+.heading3{
+  background-image:url('https://wallpaperaccess.com/full/1556608.jpg');
+  background-size: auto 50%;
+ border-color: #FFFFFF;
+ border-width:10px;
+  position:relative;
+
+}
+
+.mySlides {display:none;}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.image1{
+  position: absolute;
+  top: 210px;
+   float: right;
+   right:7%;
+  width:46%;
+   height: 60%;
+
+}
+.text {
+  color: #006400;
+  font-size: 15px;
+  padding: 16px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.heading2{
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+
+
+}
+.servies{
+  height: : 300px;
+  background-image:url('https://wallpaperaccess.com/full/1556608.jpg');
+  background-size: 50% 40%;
+ border-color: #FFFFFF;
+ border-width:10px;
+  position:relative;
+}
+.card{cursor: pointer}
+.hd{font-size: 25px;font-weight: 550}
+.card.hover, .card:hover{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+  }
+  .img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}
+  .card-title{font-weight: 600}
+  button.focus, button:focus{
+    outline: 0;box-shadow: none !important
+    }
+    .ft{margin-top: 25px}
+    .chk{margin-bottom: 5px}
+    .rck{margin-top: 20px;padding-bottom: 15px}
+
+
+
+.carousel-open:checked+.carousel-item {
+          position: static;
+          opacity: 100;
+        }
+
+        .carousel-item {
+          -webkit-transition: opacity 0.6s ease-out;
+          transition: opacity 0.6s ease-out;
+        }
+
+        #carousel-1:checked~.control-1,
+        #carousel-2:checked~.control-2,
+        #carousel-3:checked~.control-3 {
+          display: block;
+        }
+
+        .carousel-indicators {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          bottom: 2%;
+          left: 0;
+          right: 0;
+          text-align: center;
+          z-index: 10;
+        }
+
+        #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+        #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+        #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+          color: #2b6cb0;
+          /*Set to match the Tailwind colour you want the active one to be */
+        }
+        .img1 {
+
+        margin-top: 50px;
+        }
+    .footer{
+      height: : 300px;
+      background-image:url('https://wallpaperaccess.com/full/1556608.jpg');
+      background-size: 50% 40%;
+     border-color: #FFFFFF;
+     border-width:10px;
+      position:relative;
+    }
